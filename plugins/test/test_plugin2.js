@@ -1,4 +1,4 @@
-const pluginName = () => 'NegativeTestPlugin';
+const pluginName = () => 'TestPlugin2';
 const pluginVersion = () => 'v0';
 const validate = () => true;
 async function asyncTest() {
@@ -9,3 +9,4 @@ async function asyncTest() {
     console.error('Error in asyncTest:', e);
     return {};
   }
+}
